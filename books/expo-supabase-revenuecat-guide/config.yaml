@@ -1,0 +1,21 @@
+title: "Expo + Supabase + RevenueCat で稼げるアプリを作る実践ガイド"
+summary: "バイブコーディングで2日でMVPを完成させた「ふくログ」の実装を完全解説。Expo SDK 54 + Supabase + RevenueCatの3技術を統合し、認証・DB設計・RLS・サブスク課金・App Store公開までを一冊で学べる実践ガイド。"
+topics:
+  - expo
+  - supabase
+  - revenuecat
+  - reactnative
+  - 個人開発
+published: false
+price: 980
+chapters:
+  - 00-introduction
+  - 01-project-setup
+  - 02-supabase-basics
+  - 03-authentication
+  - 04-main-features
+  - 05-edge-functions
+  - 06-revenuecat
+  - 07-webhook-integration
+  - 08-app-store-release
+  - 09-conclusion
