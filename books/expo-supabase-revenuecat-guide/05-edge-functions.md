@@ -12,3 +12,38 @@ free: false
   5.3 Edge Functionsのデプロイ
   5.4 アプリからEdge Functionsを呼び出す
 -->
+
+
+## ソースコード
+
+### `services/supabase/index.ts`
+
+```typescript
+export { supabase } from './client';
+export {
+  signUpWithEmail,
+  signInWithEmail,
+  signInWithGoogle,
+  signInWithApple,
+  signOut,
+  resetPassword,
+  getSession,
+  getProfile,
+} from './auth';
+export {
+  createIncome,
+  getIncomeByMonth,
+  getIncomeByYear,
+  updateIncome,
+  deleteIncome,
+} from './income';
+export type { CreateIncomeData, UpdateIncomeData } from './income';
+export {
+  createExpense,
+  getExpenseByMonth,
+  getExpenseByYear,
+  updateExpense,
+  deleteExpense,
+} from './expense';
+export type { CreateExpenseData, UpdateExpenseData } from './expense';
+```
