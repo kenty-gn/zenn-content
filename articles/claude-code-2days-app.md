@@ -1,12 +1,12 @@
 ---
-title: "Claude Codeで2日でiOSアプリを完成させた全記録【バイブコーディング実践】"
+title: "Claude Codeで2日・10時間のiOSアプリ開発 — うまくいったこと・限界・コツを全部書く"
 emoji: "🤖"
 type: "idea"
 topics: ["claudecode", "ai", "expo", "個人開発", "バイブコーディング"]
 published: true
 ---
 
-# Claude Codeで2日でiOSアプリを完成させた全記録
+# Claude Codeで2日・10時間のiOSアプリ開発 — うまくいったこと・限界・コツを全部書く
 
 **48ファイル、約4,000行のTypeScript。認証、CRUD、ダッシュボード、サブスク課金、Edge Function。**
 
